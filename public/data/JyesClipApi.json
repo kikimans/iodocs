@@ -3,7 +3,7 @@
 	"version" : "1.0",
 	"title" : "Stat API",
 	"protocol": "rest",
-	"basePath" : "http://210.122.33.59:8080",
+	"basePath" : "http://210.122.33.59\\:8080",
 	"privatePath" : "",
 	 "headers": {
         "Accept": "application/json",
