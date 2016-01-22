@@ -15,14 +15,14 @@
 					"name" : "main stat",
 					"parameters" : {
 						"shop_id" : {
-							"defaults" : "SP000000001",
+							"default" : "SP000000001",
 							"description" : "shop id",
 							"required" : true,
 							"title" : "shop_id",
 							"type" : "string"
 						},
 						"cpn_id" : {
-							"defaults" : "",
+							"default" : "",
 							"description" : "clip coupon id",
 							"required" : false,
 							"title" : "cpn_id",
@@ -30,7 +30,7 @@
 						}
 						
 					},
-					"path": "/main"
+					"path": "/stat/cumul/main"
 
 				}
 			}
