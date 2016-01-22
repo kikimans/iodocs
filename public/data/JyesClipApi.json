@@ -9,14 +9,14 @@
 	"resources" : {
 		"Cumul : Action Methods" : {
 			"methods" : {
-				"메인통계" : {
-					"description" : "클립 과 클립파트너 메인에서 조회되는 통계 API",
+				"mainStat" : {
+					"description" : "clip&partner main page stat",
 					"httpMethod" : "GET",
 					"name" : "main stat",
 					"parameter" : {
 						"shop_id" : {
 							"defaults" : "SP000000001",
-							"description" : "상점 아이디",
+							"description" : "shop id",
 							"required" : true,
 							"title" : "shop_id",
 							"type" : "string"
