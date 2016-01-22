@@ -1,0 +1,8 @@
+{
+	"name" : "Clip & Clip Partner Stat APIs",
+	"version" : "1.0",
+	"title" : "Stat API",
+	"protocol": "rest",
+    "basePath": "https://210.122.33.59/stat",
+
+}

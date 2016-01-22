@@ -1,4 +1,7 @@
 {
+    "jyes" : {
+        "name" : "clip & clip Partner API"
+    },
     "klout": {
         "name": "Klout v2 API"
     },
