@@ -13,12 +13,19 @@
 					"description" : "clip&partner main page stat",
 					"httpMethod" : "GET",
 					"name" : "main stat",
-					"parameter" : {
+					"parameters" : {
 						"shop_id" : {
 							"defaults" : "SP000000001",
 							"description" : "shop id",
 							"required" : true,
 							"title" : "shop_id",
+							"type" : "string"
+						},
+						"cpn_id" : {
+							"defaults" : "",
+							"description" : "clip coupon id",
+							"required" : false,
+							"title" : "cpn_id",
 							"type" : "string"
 						}
 						
