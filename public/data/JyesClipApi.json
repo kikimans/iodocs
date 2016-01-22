@@ -6,7 +6,7 @@
 	"basePath" : "http://210.122.33.59:8080",
 	"privatePath" : "/stat",
 	"basicAuth" : "true",
-	"resources":{
+	"resources" : {
 		"Cumul : Action Methods" : {
 			"methods" : {
 				"메인통계" : {
@@ -22,7 +22,9 @@
 							"type" : "string"
 						}
 						
-					}
+					},
+					"path": "/main"
+
 				}
 			}
 		}
