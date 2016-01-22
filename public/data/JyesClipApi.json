@@ -3,6 +3,29 @@
 	"version" : "1.0",
 	"title" : "Stat API",
 	"protocol": "rest",
-    "basePath": "https://210.122.33.59/stat"
+	"basePath" : "http://210.122.33.59:8080",
+	"privatePath" : "/stat",
+	"basicAuth" : "true",
+	"resources":{
+		"Cumul : Action Methods" : {
+			"methods" : {
+				"메인통계" : {
+					"description" : "클립 과 클립파트너 메인에서 조회되는 통계 API",
+					"httpMethod" : "GET",
+					"name" : "main stat",
+					"parameter" : {
+						"shop_id" : {
+							"defaults" : "SP000000001",
+							"description" : "상점 아이디",
+							"required" : true,
+							"title" : "shop_id",
+							"type" : "string"
+						}
+						
+					}
+				}
+			}
+		}
+	}   
 
 }
