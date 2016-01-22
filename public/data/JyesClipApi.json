@@ -3,7 +3,7 @@
 	"version" : "1.0",
 	"title" : "Stat API",
 	"protocol": "rest",
-	"basePath" : "http://210.122.33.59:8080/stats",
+	"basePath" : "http://210.122.33.59:8080",
 	"privatePath" : "",
 	 "headers": {
         "Accept": "application/json",
@@ -33,7 +33,7 @@
 						}
 						
 					},
-					"path": "/cumul/main"
+					"path": "/stats/cumul/main"
 
 				}
 			}
